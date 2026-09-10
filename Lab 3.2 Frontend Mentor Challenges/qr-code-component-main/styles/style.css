@@ -3,7 +3,6 @@ body {
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: 1fr 30px;
-    gap: 2x;
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
