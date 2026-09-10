@@ -23,7 +23,7 @@ body {
 
 }
 
-#outerContainer {
+.outerContainer {
     grid-template-columns: 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     border: 1px white solid;
@@ -59,8 +59,10 @@ body {
     color: hsl(0, 0%, 7%);
 }
 
-h3 {
-    font-weight: 900px;
+#headingSection {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 #miniPara {
@@ -154,5 +156,9 @@ h3 {
         margin-top: 8px;
         font-weight: bold;
 
+    }
+
+    #headingSection {
+        font-size: 14px;
     }
 }
